@@ -1,0 +1,40 @@
+.empty{
+    height: 84px;
+    padding: 16px 0;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    border: 1px solid #ccc;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+
+.left{
+    width: 400px;
+    height: 800px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.left:first-child{
+    width: 400px;
+    height: 120px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.left:last-child{
+    border:none;
+}
+
+.right{
+    width: 800px;
+    height: 800px;
+    border-left: 1px solid #ccc;
+}
